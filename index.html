@@ -1,53 +1,84 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="it">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Toboolist</title>
     <link rel="stylesheet" href="./css/style.css">
 </head>
-
 <body>
-    <div class="conteiner">
-        <!-- header -->
-        <header class="header">
-            <div class="navbar">
-                <img src="./img/logo copia.png" alt="" class="logo">
-                <span class="title">Toboolist</span>
-            </div>
-        </header>
-
-        <!-- main -->
-        <main>
-            <div class="list">
-                <div class="botton-bar">
-                    <button>
-                        Add Task
-                    </button>
-
-                    <button>
-                        Add Searching
-                    </button>
-                </div>
-                <hr>
-                <ul>
-                    <ul><span>New Task</span>
-                        <li></li>
-                    </ul>
-                    <ul></ul>
-                    <ul></ul>
-                </ul>
-
-            </div>
-        </main>
-
-        <!-- footer -->
-        <footer>
-
-        </footer>
-
+    <!-- header -->
+    <div class="header">
+        <img src="./img/logo copia.png" alt="Toboolist Logo" class="logo">
+        <h1 class="title">Toboolist</h1>
     </div>
-</body>
+<!-- header -->
 
+  <!-- botton -->
+    <div class="container">
+        <div class="task-header">
+            <button class="btn add-task">Add Task</button>
+            <button class="btn add-section">Add Section</button>
+        </div>
+<!-- botton -->
+
+<!-- lista -->
+        <div class="section">
+            <h2>New Task</h2>
+            <div class="task">
+                <span class="icon check">✔</span>
+                <span class="task-title">Quarterly Newsletter</span>
+                <span class="tag blue">Editorial</span>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Today</h2>
+            <div class="task">
+                <span class="icon check">✔</span>
+                <span class="task-title">Recruiting blog post</span>
+                <span class="tag blue">Editorial</span>
+            </div>
+            <div class="task">
+                <span class="icon check">✔</span>
+                <span class="task-title">Mobile app launch</span>
+                <span class="tag purple">Q1 Goals</span>
+            </div>
+            <div class="task">
+                <span class="icon cross">✘</span>
+                <span class="task-title">Interview John H.</span>
+                <span class="tag green">Recruiting</span>
+            </div>
+            <div class="task">
+                <span class="icon check">✔</span>
+                <span class="task-title">Summit update to mobile storefronts</span>
+                <span class="tag orange">Mobile</span>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Upcoming</h2>
+            <div class="task">
+                <span class="icon cross">✘</span>
+                <span class="task-title">Schedule meeting with Alex</span>
+            </div>
+            <div class="task">
+                <span class="icon check">✔</span>
+                <span class="task-title">Homepage refresh</span>
+                <span class="tag pink">Website</span>
+            </div>
+            <div class="task">
+                <span class="icon check">✔</span>
+                <span class="task-title">Onboard new Sales team members</span>
+                <span class="tag green">Sales</span>
+            </div>
+            <div class="task">
+                <span class="icon check">✔</span>
+                <span class="task-title">Review editorial calendar</span>
+                <span class="tag blue">Editorial</span>
+            </div>
+        </div>
+    </div>
+    <!-- lista -->
+</body>
 </html>
