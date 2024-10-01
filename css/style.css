@@ -1,10 +1,12 @@
+/* Body Styles*/
 body {
     font-family: Arial, sans-serif;
     background-color: #f9fafb;
     margin: 0;
     padding: 20px;
 }
-/* header */
+
+/*  Header Styles  */
 .header {
     display: flex;
     align-items: center;
@@ -20,7 +22,8 @@ body {
     font-size: 32px;
     font-weight: bold;
 }
-/* layaut */
+
+/*  Layout Container  */
 .container {
     background-color: white;
     padding: 20px;
@@ -31,7 +34,8 @@ body {
 .task-header {
     margin-bottom: 20px;
 }
-/* botton */
+
+/*  Button Styles  */
 .btn {
     background-color: #007bff;
     color: white;
@@ -47,6 +51,7 @@ body {
     color: #333;
 }
 
+/*  Section Styles  */
 .section {
     margin-bottom: 20px;
 }
@@ -57,6 +62,7 @@ h2 {
     color: #333;
 }
 
+/*  Task Styles */
 .task {
     display: flex;
     align-items: center;
@@ -69,17 +75,18 @@ h2 {
 }
 
 .check {
-    color: #28a745;
+    color: #28a745; /* Verde per i task completati */
 }
 
 .cross {
-    color: #dc3545;
+    color: #dc3545; /* Rosso per i task incompleti o da fare */
 }
 
 .task-title {
     flex-grow: 1;
 }
 
+/*  Tag Styles */
 .tag {
     background-color: #e0e0e0;
     border-radius: 15px;
@@ -88,22 +95,26 @@ h2 {
     color: white;
 }
 
+/*  Color Variations */
 .blue {
-    background-color: #007bff;
+    background-color: #007bff; /* Colore blu per tag Editorial */
 }
 
 .green {
-    background-color: #28a745;
+    background-color: #28a745; /* Colore verde per tag Recruiting */
 }
 
 .purple {
-    background-color: #6f42c1;
+    background-color: #6f42c1; /* Colore viola per tag Q1 Goals */
 }
 
 .orange {
-    background-color: #fd7e14;
+    background-color: #fd7e14; /* Colore arancione per tag Mobile */
 }
 
 .pink {
-    background-color: #e83e8c;
+    background-color: #e83e8c; /* Colore rosa per tag Website */
 }
+
+
+
