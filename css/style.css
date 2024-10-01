@@ -1,0 +1,47 @@
+/* reset */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+/* lyaut */
+.container {
+    width: 80%;
+    max-width: 1100px;
+    margin: 0 auto;
+
+    /* debug */
+    border: 1px solid red;
+
+}
+
+
+
+
+
+
+/* header */
+
+/* display */
+.navbar {
+    height: 100px;
+    display: inline-block;
+    line-height: 100px;
+}
+.title {
+    display: inline-block;
+    line-height: 100px;
+}
+.logo {
+    display: inline-block;
+    line-height: 100px;
+}
+
+
+/* main */
+
+
+/* footer */
